@@ -24,7 +24,7 @@ function generateCommonModule() {
       }).code;
     })
     .then(function(code) {
-      write('dist/vue-clickaway.common.js', code);
+      write('dist/vue-clickout.common.js', code);
     });
 }
 
@@ -42,12 +42,12 @@ function generateBundledDev() {
     .then(function(bundle) {
       return bundle.generate({
         format: 'iife',
-        moduleName: 'VueClickaway',
+        moduleName: 'VueClickout',
         globals: { vue: 'Vue' },
       }).code;
     })
     .then(function(code) {
-      write('dist/vue-clickaway.js', code);
+      write('dist/vue-clickout.js', code);
     });
 }
 
@@ -65,7 +65,7 @@ function generateBundledProd() {
     .then(function(bundle) {
       return bundle.generate({
         format: 'iife',
-        moduleName: 'VueClickaway',
+        moduleName: 'VueClickout',
         globals: { vue: 'Vue' },
       }).code;
     })
@@ -75,7 +75,7 @@ function generateBundledProd() {
       }).code;
     })
     .then(function(code) {
-      return write('dist/vue-clickaway.min.js', code);
+      return write('dist/vue-clickout.min.js', code);
     }); 
 }
 

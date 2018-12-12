@@ -28,7 +28,7 @@
 Reworked for Vue 2.0
 
 ### Breaking changes
-- `v-on-clickaway` used to be able to accept statements, like `v-on-clickaway="a = a + 1"` or `v-on-clickaway="doSomething(context)"`. This is no longer supported.
+- `v-on-clickout` used to be able to accept statements, like `v-on-clickout="a = a + 1"` or `v-on-clickout="doSomething(context)"`. This is no longer supported.
 
 ## [1.1.5] - 2016-09-30
 
@@ -89,17 +89,17 @@ Skipped 1.1.4 due to publishing mistake
 
 Initial release
 
-[0.1.1]: https://github.com/simplesmiler/vue-clickaway/compare/0.1.0...0.1.1
-[1.0.1]: https://github.com/simplesmiler/vue-clickaway/compare/1.0.0...1.0.1
-[1.1.0]: https://github.com/simplesmiler/vue-clickaway/compare/1.0.1...1.1.0
-[1.1.1]: https://github.com/simplesmiler/vue-clickaway/compare/1.1.0...1.1.1
-[1.1.2]: https://github.com/simplesmiler/vue-clickaway/compare/1.1.1...1.1.2
-[1.1.3]: https://github.com/simplesmiler/vue-clickaway/compare/1.1.2...1.1.3
-[1.1.5]: https://github.com/simplesmiler/vue-clickaway/compare/1.1.3...1.1.5
+[0.1.1]: https://github.com/simplesmiler/vue-clickout/compare/0.1.0...0.1.1
+[1.0.1]: https://github.com/simplesmiler/vue-clickout/compare/1.0.0...1.0.1
+[1.1.0]: https://github.com/simplesmiler/vue-clickout/compare/1.0.1...1.1.0
+[1.1.1]: https://github.com/simplesmiler/vue-clickout/compare/1.1.0...1.1.1
+[1.1.2]: https://github.com/simplesmiler/vue-clickout/compare/1.1.1...1.1.2
+[1.1.3]: https://github.com/simplesmiler/vue-clickout/compare/1.1.2...1.1.3
+[1.1.5]: https://github.com/simplesmiler/vue-clickout/compare/1.1.3...1.1.5
 
-[2.0.0-rc.1]: https://github.com/simplesmiler/vue-clickaway/compare/1.1.5...2.0.0-rc.1
-[2.0.0]: https://github.com/simplesmiler/vue-clickaway/compare/2.0.0-rc.1...2.0.0
-[2.1.0]: https://github.com/simplesmiler/vue-clickaway/compare/2.0.0...2.1.0
-[2.2.0]: https://github.com/simplesmiler/vue-clickaway/compare/2.2.0...2.1.0
-[2.2.1]: https://github.com/simplesmiler/vue-clickaway/compare/2.2.0...2.2.1
-[2.2.2]: https://github.com/simplesmiler/vue-clickaway/compare/2.2.1...2.2.2
+[2.0.0-rc.1]: https://github.com/simplesmiler/vue-clickout/compare/1.1.5...2.0.0-rc.1
+[2.0.0]: https://github.com/simplesmiler/vue-clickout/compare/2.0.0-rc.1...2.0.0
+[2.1.0]: https://github.com/simplesmiler/vue-clickout/compare/2.0.0...2.1.0
+[2.2.0]: https://github.com/simplesmiler/vue-clickout/compare/2.2.0...2.1.0
+[2.2.1]: https://github.com/simplesmiler/vue-clickout/compare/2.2.0...2.2.1
+[2.2.2]: https://github.com/simplesmiler/vue-clickout/compare/2.2.1...2.2.2

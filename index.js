@@ -4,14 +4,14 @@ export var version = '2.2.2';
 
 var compatible = (/^2\./).test(Vue.version);
 if (!compatible) {
-  Vue.util.warn('VueClickaway ' + version + ' only supports Vue 2.x, and does not support Vue ' + Vue.version);
+  Vue.util.warn('VueClickout ' + version + ' only supports Vue 2.x, and does not support Vue ' + Vue.version);
 }
 
 
 
 // @SECTION: implementation
 
-var HANDLER = '_vue_clickaway_handler';
+var HANDLER = '_vue_clickout_handler';
 
 function bind(el, binding, vnode) {
   unbind(el, binding);
@@ -37,7 +37,7 @@ function bind(el, binding, vnode) {
   //        the directive) arrives at the document root. To work around that,
   //        we ignore events until the end of the "initial" macrotask.
   // @REFERENCE: https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
-  // @REFERENCE: https://github.com/simplesmiler/vue-clickaway/issues/8
+  // @REFERENCE: https://github.com/simplesmiler/vue-clickout/issues/8
   var initialMacrotaskEnded = false;
   setTimeout(function() {
     initialMacrotaskEnded = true;
@@ -77,5 +77,5 @@ export var directive = {
 };
 
 export var mixin = {
-  directives: { onClickaway: directive },
+  directives: { onClickout: directive },
 };
