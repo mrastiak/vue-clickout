@@ -1,15 +1,15 @@
 {
   "name": "vue-clickout",
-  "description": "Reusable clickout directive for reusable Vue.js components",
-  "version": "2.3.0",
-  "author": "Denis Karabaza <denis.karabaza@gmail.com>",
+  "description": "Reusable clickout directive for reusable Vue.js components, forked from vue-clickaway",
+  "version": "1.0.0",
+  "author": "Mahdi Aryayi <mahdiaryayi@gmail.com>",
   "browserify": {
     "transform": [
       "loose-envify"
     ]
   },
   "bugs": {
-    "url": "https://github.com/simplesmiler/vue-clickout/issues"
+    "url": "https://github.com/Carrene/vue-clickout/issues"
   },
   "dependencies": {
     "loose-envify": "^1.2.0"
@@ -21,10 +21,11 @@
     "rollup-plugin-replace": "^1.1.0",
     "uglify-js": "^2.6.1"
   },
-  "homepage": "https://github.com/simplesmiler/vue-clickout",
+  "homepage": "https://github.com/Carrene/vue-clickout",
   "keywords": [
     "click",
     "clickout",
+    "clickaway",
     "reusable",
     "vue",
     "vue-directive",
@@ -37,11 +38,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/simplesmiler/vue-clickout"
+    "url": "https://github.com/Carrene/vue-clickout"
   },
   "scripts": {
     "build": "node build.js",
     "lint": "./node_modules/.bin/eslint index.js directive.js mixin.js build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build"
   }
 }
